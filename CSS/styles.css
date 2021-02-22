@@ -1,0 +1,177 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Cardo", serif;
+  background-color: #f8f8f8;
+  color: #0d0d0d;
+  font-size: 14px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+}
+
+hr {
+  border-style: dotted none none;
+  border-width: 4px;
+  border-color: #026873;
+}
+
+li {
+  margin-left: 1rem;
+}
+
+/* Algemene styling */
+
+.link-icon {
+  color: #f28705;
+  margin-right: 1rem;
+}
+
+/* Progress BAR */
+.schuif-lijst {
+  margin-bottom: 0.5rem;
+}
+
+.schuif {
+  padding-top: 0.25rem;
+}
+.progress {
+  height: 0.5rem;
+}
+.progress-bar {
+  background-color: #f28705;
+}
+
+/* HEADER */
+
+.header {
+  background-color: #026873;
+  color: #f8f8f8;
+  padding: 0;
+}
+
+.header-row {
+  width: 82%;
+  margin: 0 auto;
+}
+.header-img {
+  width: 285px;
+  height: 285px;
+}
+
+.header-cv {
+  font-family: "Cardo", serif;
+  font-size: 2.5rem;
+  margin-top: 1.5rem;
+}
+
+.header-block {
+  display: flex;
+  margin-bottom: 1.5rem;
+}
+.header-name {
+  font-size: 5.125rem;
+  margin-left: -0.4rem;
+}
+
+.header-bd {
+  align-self: flex-end;
+  margin-left: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.header-col-1 {
+  text-align: end;
+  align-self: center;
+}
+
+.header-icon {
+  color: #f28705;
+  margin-right: 2rem;
+  font-size: 1.5rem;
+}
+
+.header-data {
+  margin-bottom: 1.5rem;
+}
+
+.header-link {
+  color: #f8f8f8;
+}
+.header-link:hover {
+  color: #f28705;
+}
+
+/* MAIN SECTION */
+.main-section {
+  width: 80%;
+  margin: 0 auto;
+}
+.main-header {
+  font-size: 2rem;
+  color: #0d0d0d;
+  padding-top: 2rem;
+}
+
+.main-icon {
+  color: #026873;
+  padding-right: 1rem;
+}
+
+/* Kennis */
+.kennis-list {
+  list-style: none;
+}
+
+.kennis-link {
+  color: #0d0d0d;
+}
+
+.kennis-link:hover {
+  color: #f28705;
+}
+
+/* HOBBY */
+
+.hobby-rij {
+  text-align: center;
+  align-self: center;
+}
+.hobby-icon {
+  height: 75px;
+  width: 75px;
+  margin: 1rem;
+  filter: invert(0%) sepia(3%) saturate(1185%) hue-rotate(33deg) brightness(103%) contrast(90%);
+}
+
+.hobby-icon:hover {
+  filter: invert(57%) sepia(97%) saturate(1085%) hue-rotate(350deg) brightness(91%) contrast(110%);
+}
+
+/* FOOTER */
+#footer {
+  text-align: center;
+  margin: 5rem 0;
+}
+
+.footer-icon {
+  color: #026873;
+  font-size: 2rem;
+  margin: 1.5rem 1rem;
+}
+
+.footer-icon:hover{
+  color: #f28705;
+}
+.footer-copyright{
+  margin-top: 2rem;
+}
