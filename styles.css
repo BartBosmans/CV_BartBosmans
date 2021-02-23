@@ -36,6 +36,12 @@ li {
   margin-right: 1rem;
 }
 
+.hr-small-display{
+  border-width: 2px;
+  border-color: #0396A6;
+  margin: 0 0 .5rem 0;
+}
+
 /* Progress BAR */
 .schuif-lijst {
   margin-bottom: 0.5rem;
@@ -56,11 +62,10 @@ li {
 .header {
   background-color: #026873;
   color: #f8f8f8;
-  padding: 0;
+  padding: 1.5rem;
 }
 .header-cv {
   font-family: "Cardo", serif;
-  margin-top: 1.5rem;
 }
 .header-name {
   font-size: 5.125rem;
@@ -88,6 +93,9 @@ li {
   font-size: 1.5rem;
   width: 1.5rem;
 }
+.header-icon-row{
+  margin-bottom: 2rem;
+}
 
 .header-link {
   color: #f8f8f8;
@@ -101,6 +109,10 @@ li {
 }
 .header-titles {
   text-align: left;
+}
+
+.header-address, .header-link{
+  margin-bottom: .8rem;
 }
 
 /* Extra small devices (phones, 600px and down) */
@@ -122,8 +134,15 @@ li {
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
+  .header-titles{
+    
+  }
   .header-cv {
     font-size: 2rem;
+  }
+  h2.header-cv{
+    display: flex;
+    align-content: center;
   }
   .header-name {
     font-size: 2.5rem;
@@ -135,6 +154,7 @@ li {
   .header-icon {
     margin-right: 0.5rem;
   }
+  
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -144,6 +164,9 @@ li {
   }
   .header-name {
     font-size: 3rem;
+  }
+  .hr-small-display{
+    display: none;
   }
   
 }
