@@ -1,0 +1,29 @@
+{
+  "name": "mijncv",
+  "version": "1.0.0",
+  "description": "Mijn CV",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BartBosmans/CV_BartBosmans.git"
+  },
+  "keywords": [
+    "cv",
+    "curriculum",
+    "vitae",
+    "bart",
+    "bosmans"
+  ],
+  "author": "Bart Bosmans",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BartBosmans/CV_BartBosmans/issues"
+  },
+  "homepage": "https://github.com/BartBosmans/CV_BartBosmans#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
